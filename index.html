@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="shopping-cart">
+            <header>
+                <p>Shopping Cart</p>
+                <p>
+                    <span id="itemsCount">3</span> Items
+                </p>
+            </header>
+        
+            <!-- Item 1-->
+            <section class="item"> 
+                <section class="item-description"> 
+                    <img src="res\DELL pc de bureau.jpg" alt="DELLpc de bureau">
+                    <div class="description" id="0">
+                        <p>DELLpc de bureau</p>
+                        <p>informatique</p>
+                    </div>
+                </section>
+                <section class="like-item">
+                    <img src="res\heart-icon-48.png" alt="like ICON">
+                </section>
+                <section class="item-qte" id="0">
+               <button id="minus">-</button>
+               <p class="qte">1</p>
+               <button id="add">+</button>
+                </section>
+                <section class="item-unit-price">
+                    <p>1598.00</p><span>&nbsp;DT</span>
+                </section>
+                <section class="item-total-price">
+                    <p>1598.00</p><span>&nbsp;DT</span>
+                </section>
+                <section class="remove">
+                    <button class="btn">remove</button>
+                </section>
+            </section>
+
+            <!--Item 2-->
+            <section class="item" id="1">
+                <section class="item-description">
+                    <img src="res\HP imprimante.jpg" alt="HP imprimante">
+                    <div class="description" id="1">
+                        <p>HPimprimante</p>
+                        <p>informatique</p>
+                    </div>
+                </section>
+                <section class="like-item">
+                    <img src="res\heart-icon-48.png" alt="like ICON">
+                </section>
+                <section class="item-qte" id="1">
+                    <button class="minus">-</button>
+                    <p class="qte">1</p>
+                    <button class="add">+</button>
+                </section>
+                <section class="item-unit-price">
+                    <p>499.00</p><span>&nbsp;DT</span>
+                </section>
+                <section class="item-total-price">
+                    <p>499.00</p><span>&nbsp;DT</span>
+                </section>
+                <section class="remove">
+                    <button class="btn">remove</button>
+                </section>
+            </section>
+
+            <!--Item 3-->
+            <section class="item">
+                <section class="item-description">
+                    <img src="res\VR BOX 2020.jpg" alt="PS5">
+                    <div class="description" id="2">
+                        <p>VR Box casque realite virtuel</p>
+                        <p>jeux video & console</p>
+                    </div>
+                </section>
+                <section class="like-item">
+                    <img src="res\heart-icon-48.png" alt="like ICON">
+                </section>
+                <section class="item-qte" id="2">
+                    <button id="minus">-</button>
+                    <input type="number" value="0" id="input"/>
+                    <button id="plus">+</button>
+                </section>
+                <section class="item-unit-price">
+                    <p>79.00</p><span>&nbsp;DT</span>
+                </section>
+                <section class="item-total-price">
+                    <p>79.00</p><span>&nbsp;DT</span>
+                </section>
+                <section class="remove">
+                    <button class="btn">remove</button>
+                </section>
+            </section>
+
+
+            <!--Sum-->
+            <section class="grid-overwrite">
+                <section class="all-items-total-price">
+                    <p id="total-Price">0.00<span>&nbsp;DT</span>
+                </section>
+            </section>
+        </section>
+    </div>
+
+    <script src="js\m.js"></script>
+</body>
+
+</html>
+
